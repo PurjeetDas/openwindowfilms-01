@@ -1,0 +1,133 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Open Window Films"
+  content : "Open windows are always been considered as a metaphor of inspiration to new ideas , without it
+neither you can see beyond yourself nor the world can see you within."
+  image : "images/banner.png"
+  # button
+  button:
+    enable : false
+    label : "All Products"
+    link : "products"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Who We Are"
+  content : "Open-Window films is a mumbai (India)  based creative video production company that specialized in creating passionate and engaging stories for almost all kind of drama, documentary , 
+  corporate & web contents, as well as providing production assistance for international projects shooting in india."
+  image : "images/about-bg.jpg"
+  
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : ""
+  content : "Open windows are always been considered as a metapher of inspiration to new ideas , without it neither you can see beyond yourself nor the world can see you within!"
+  image : "images/idea.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Products"
+    link : "products"
+
+######################## Services #######################
+material:
+  enable : true
+  title : "What We Do"
+  subtitle : "We are a small team of curious cinematic cooks who work closely with you to fully understand your
+ideas, vision, target-audiance , deadlines, budget and strategically choose the content to help you achive
+you goals.
+"
+  image : "images/speaker-sketch.jpg"
+  materialItem:
+    # material item loop
+    - title : "Drama"
+      image : "images/mask.png"
+      content : " This Audio/visual  medium  is such a unique power-house of storytelling when it comes alive on screen it flows with  all that shades human has deep inside and often audience relate and reclaim their very own through this magical journey."
+      
+    # material item loop
+    - title : "Corporate"
+      image : "images/corporate.png"
+      content : "Video has the power to humanize your brand , engage your customer , promote your product and lot more."
+      
+    # material item loop
+    - title : "Documentary"
+      image : "images/Documentary.png"
+      content : "Documentary films  are an excellent way of connecting people. It can educate,  inform, & inspire with its engaging  truth & fact-findings . "
+      
+    # material item loop
+    - title : "Web"
+      image : "images/web.png"
+      content : "With the help of web now u can reach the most. Its comparatively cheaper and faster than ever , but the same time challenge is to stand-out in the crowd with a right kind of content & presentation."
+
+########################### Advantage #########################
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : false
+  title : "Our Journey"
+  content : "We are a small team of qurious cinematic cooks who work closely  with you to fully understand your ideas, vision, target-audiance , deadlines,
+   budget and strategically choose the content to help you achive you goals."
+  videoThumb : "images/aboutUs.png"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : false
+  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : false
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "john Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five

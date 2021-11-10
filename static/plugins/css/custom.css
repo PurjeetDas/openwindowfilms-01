@@ -1,0 +1,137 @@
+.navigation {
+    transition: .3s ease;
+}
+
+.card-img-top {
+
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 70px;
+    width: 80px;
+    align-content: center;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New';
+}
+li.nav-item {
+    margin:0 0 10px 0;   
+ }
+
+.section-sm {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.section-about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f1f0f0;
+    
+}
+.img-bulb {
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0.5;
+}
+.img-director-chair {
+    vertical-align: middle;
+    border-style: none;
+    
+}
+
+.custom-header{
+    margin-left: -10px;
+}
+
+[class*=" ti-"], [class^=ti-] {
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-gradient {
+    background: linear-gradient(27deg,#fcfcfc 0%,#a9a9a9 100%)!important;
+}
+.text-white {
+    color: #43474a!important;
+}
+
+.banner-background{
+    background-image: url(../../images/circle-wbg-2.png);
+}
+
+.container-circle {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered-circle {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    height: 90px;
+}
+
+  .video-img{
+    height: 150px;
+    width: 150px;
+  
+  }
+  .nav-item{
+    text-align: right;
+}
+
+  .nav-item .nav-link {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+  .about-para {
+    font-weight: 400;
+    color: #333;
+    font-size: 17px;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p, .paragraph {
+    font-weight: 400;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-services{
+    padding-top: 0px;
+    background-color: #f3f3f3;
+}
+
+.section-contact{
+    padding-top: 50px;
+    background-color: #f7f7f4;
+}
+
+.section-padding{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+

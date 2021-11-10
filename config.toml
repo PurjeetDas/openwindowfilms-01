@@ -1,0 +1,134 @@
+######################## default configuration ####################
+baseURL = "http://openwindowfilms.com/"
+languageCode = "en-us"
+title = "Open Window Films"
+theme = "hargo"
+summaryLength = "20"
+paginate = 10
+disqusShortname = ""
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  link = "plugins/css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "About Us"
+  URL = "#aboutUs"
+  weight = 1
+  
+  [[menu.main]]
+  name = "Our Services"
+  URL = "#ourServices"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "#Contact"
+  weight = 3
+  
+
+
+  ############# footer menu #############
+  [[menu.footer]]
+  name = "Products"
+  URL = "products"
+  weight = 1
+  
+  [[menu.footer]]
+  name = "Blog"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Terms & Conditions"
+  URL = "terms-conditions"
+  weight = 4
+  
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo4.jpg"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+mapLatitude = "51.5223477"
+mapLongitude = "-0.1622023"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+mobileindia = "+91 9819160402"
+mobileUs = "+1(678)6483782"
+email = "openwindow2films@gmail.com"
+location = "Royal-Palms , Goregaon(e) , Mumbai"
+# copyright
+copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = true
+  websiteID = "444334"
+  publicKey = "811cf0927332bf51f2e12f84608594ac"
+
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "https://www.facebook.com/Open-Window-Films-2172751849631756/"
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "https://twitter.com/FilmsOpen"
+  
+  [[params.social]]
+  icon = "ti-linkedin"
+  link = "https://www.linkedin.com/company/open-window-films"
+  
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "https://www.instagram.com/openwindow_films/"  
+
+  # Contact Form
+  [params.contact]
+  formAction = "https://getform.io/f/49faa8fc-310c-4947-91c0-587a183435f3"
